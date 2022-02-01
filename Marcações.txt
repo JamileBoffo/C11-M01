@@ -1,0 +1,34 @@
+FUNÇÕES EM ARRAYS
+
+## .length
+Conta quantos índices possui a array
+
+## .push
+Adiciona um elemento ao final da array
+
+## .unshifht
+Adiciona um elemento ao inicio da array
+
+## .pop
+Remove o ultimo índice da array e retorna ele
+
+## .shift
+Remove o primeiro índice da array e retorna ele
+
+## .splice
+Adiciona, remove ou substitui um índice da array
+--> o 1º parâmetro indica o índice a partir de onde o splice será "aplicado"
+--> o 2º parâmetro (opcional) indica a quantidade de itens a serem removidos
+--> 3º parâmetro em diante (opcional) passa os novos elementos a serem adicionados
+
+## .fill
+Substitui e repete a partir de um determinado indice(até onde desejar
+--> O 1º parâmetro é o valor que vai preencher a lista
+--> O 2º parâmetro (opcional) é o índice onde ela vai começar a substituição dos elementos
+--> O 3º parâmetro (opcional) é o índice que indica até onde eles devem ser substituídos (o índice passado não é afetado, ele substituiu até o anterior a ele).
+
+## .sort (.sort(((a, b) => a - b));
+Organiza os índices de forma crescente (caso alfabeto ou caso número)
+
+## .reverse
+Inverte a ordem dos índices dentro da array
