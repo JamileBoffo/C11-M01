@@ -2,8 +2,8 @@ const prompt = require('prompt-sync')();
 console.clear();
 
 function inverter(array){
-    var re = array.reverse
-    return re
+    let rev = array.reverse()
+    return rev
 }
 
 var ar = [];
@@ -22,7 +22,6 @@ while(confirm == 'SIM' || confirm == 'S'){
     console.log();
 
     ar.push(num)
-    var result = inverter(ar)
 
     var confirm = prompt('Deseja adicionar mais um número? ').toUpperCase();
 
@@ -31,6 +30,7 @@ while(confirm == 'SIM' || confirm == 'S'){
     
     if (confirm == 'N' || confirm == 'NAO'){
         console.log(ar)
+        let result = inverter(ar)
         console.log(result)
         break
     }
